@@ -1,5 +1,3 @@
 ---
-title = "Ray's SDEV Class Notes"
+title: "Ray's SDEV Class Notes"
 ---
-
-
