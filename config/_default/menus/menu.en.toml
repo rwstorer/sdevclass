@@ -9,10 +9,10 @@
   weight = 2
   url = "docs/"
 
-#[[main]]
-#  name = "Tutorials"
-#  weight = 2
-#  url = "tutorials/"
+[[main]]
+  name = "Classes"
+  weight = 3
+  url = "classes/"
 
 #[[main]]
 #  name = "Example"

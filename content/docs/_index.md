@@ -3,4 +3,4 @@ title: "Documents for Class"
 weight: 1
 ---
 
-Documents I write for classes I teach.
+Other documents I write for classes I teach.
