@@ -1,0 +1,10 @@
+{{- $config := site.Params }}
+{{- $author := $config.author }}
+{{- if ne $config.enableCopyright false }}
+<footer class="pt-2 pb-2">
+  <div class="wrap">
+    <p>&copy; <span class="year">{{ now.Year }}</span>{{ with $author }} <a href ="{{ absLangURL .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ end }}</p>
+    <a href="#pagetop" id="toTop" title={{ T "to_top" }}></a> <span style="font-size: x-small">Generated with <a href="https://gohugo.io" target="_blank" style="text-decoration: underline;">Hugo <img width="10rem" height="10rem" src="/images/hugo_favicon.ico" /> </a> using the <a href="https://github.com/onweru/compose/" target="_blank" style="text-decoration: underline;">Compose <img width="10rem" height="10rem" src="/images/compose_favicon.ico" /> </a> theme</span>
+  </div>
+</footer>
+{{- end }}

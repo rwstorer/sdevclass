@@ -18,6 +18,10 @@ to optimize a hybrid IT infrastructure for security, cost, fault tolerance,
 and high availability. Students will explore course topics through a guided,
 hands-on approach.
 
+{{< notice "note" >}}
+This course does **NOT** lead to AWS, Azure, or any other cloud certification. It will cover how to perform tasks (within the free tier) in both AWS and Azure using both (as much as possible) the web GUI and the command line.
+{{< /notice >}}
+
 ## Learning Objectives
 
 1. Create a local network
