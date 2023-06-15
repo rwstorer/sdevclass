@@ -1,3 +1,3 @@
 ---
-title: "Ray's SDEV Class Notes"
+title: "Ray's Class Documents"
 ---

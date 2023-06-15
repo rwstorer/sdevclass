@@ -1,5 +1,5 @@
 ---
-title: "SDEV Writing for Class"
+title: "Documents for Class"
 weight: 1
 ---
 

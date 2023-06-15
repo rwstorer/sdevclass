@@ -35,8 +35,8 @@ key = "" # Search-Only API Key
 
 # Site logo
 [logo]
-  lightMode = "images/BitMoji-head-only.png"
-  darkMode = "images/BitMoji-head-only.png"
+  lightMode = "images/ray.webp"
+  darkMode = "images/ray.webp"
 
 [source]
   name = "GitHub"
