@@ -1,0 +1,86 @@
+<!-- Original snagged from https://github.com/luizdepra/hugo-coder/ -->
+<!-- I removed the FontAwesome and added SVGs instead -->
+{{- $type := .Get 0 | default "tip" -}}
+{{- $title := .Get 1 | default $type -}}
+{{ $error := "/static/images/circle-xmark.svg" }}
+{{ $warning := "/static/images/triangle-exclamation.svg" }}
+{{ $info := "/static/images/circle-info.svg" }}
+{{ $question := "/static/images/question.svg" }}
+{{ $example := "/static/images/paperclip.svg" }}
+{{ $tip := "/static/images/lightbulb.svg" }}
+{{ $note := "/static/images/itunes-note.svg" }}
+
+<div class="notice {{ $type }}">
+  <div class="notice-title">
+    {{ if eq $type "error"}}
+      <span class="inline-svg" >
+        {{- $fname := print $error -}}
+        {{- $path := "<path" -}}
+        {{- $fill := "<path fill=\"currentColor\"" -}}
+        {{ replace (readFile $fname) $path $fill | safeHTML }}
+      </span>
+      {{ i18n $title | default $title | humanize }}
+    {{ else }}
+      {{ if eq $type "question" }}
+        <span class="inline-svg" >
+          {{- $fname := print $question -}}
+          {{- $path:="<path" -}}
+          {{- $fill := "<path fill=\"currentColor\"" -}}
+          {{ replace (readFile $fname) $path $fill | safeHTML }}
+        </span>
+        {{ i18n $title | default $title | humanize }}
+      {{ else }}
+        {{ if eq $type "warning" }}
+          <span class="inline-svg" >
+            {{- $fname := print $warning -}}
+            {{- $path:="<path" -}}
+            {{- $fill := "<path fill=\"currentColor\"" -}}
+            {{ replace (readFile $fname) $path $fill | safeHTML }}
+          </span>
+          {{ i18n $title | default $title | humanize }}
+        {{ else }}
+          {{ if eq $type "info" }}
+            <span class="inline-svg" >
+              {{- $fname := print $info -}}
+              {{- $path:="<path" -}}
+              {{- $fill := "<path fill=\"currentColor\"" -}}
+              {{ replace (readFile $fname) $path $fill | safeHTML }}
+            </span>
+            {{ i18n $title | default $title | humanize }}
+          {{ else }}
+            {{ if eq $type "example" }}
+              <span class="inline-svg" >
+                {{- $fname := print $example -}}
+                {{- $path:="<path" -}}
+                {{- $fill := "<path fill=\"currentColor\"" -}}
+                {{ replace (readFile $fname) $path $fill | safeHTML }}
+              </span>
+              {{ i18n $title | default $title | humanize }}
+            {{ else }}
+              {{ if eq $type "tip" }}
+                <span class="inline-svg" >
+                  {{- $fname := print $tip -}}
+                  {{- $path:="<path" -}}
+                  {{- $fill := "<path fill=\"currentColor\"" -}}
+                  {{ replace (readFile $fname) $path $fill | safeHTML }}
+                </span>
+                {{ i18n $title | default $title | humanize }}
+              {{ else }} <!-- defaults to note if using note or other unknown type -->
+                <span class="inline-svg" >
+                  {{- $fname := print $note -}}
+                  {{- $path:="<path" -}}
+                  {{- $fill := "<path fill=\"currentColor\"" -}}
+                  {{ replace (readFile $fname) $path $fill | safeHTML }}
+                </span>
+                {{ i18n $title | default $title | humanize }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+  <div class="notice-content">
+    {{- .Inner | markdownify -}}
+  </div>
+</div>

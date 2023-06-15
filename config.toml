@@ -1,3 +1,17 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://sdevclass.com/"
+title = "SDEV Class"
+enableRobotsTXT = true
+theme = "compose"
+enableGitInfo = false
+
+# disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# I decided to override Hugo's default date priority so that lastmod would allow me to update existing blogs and bring them back to the top.
+[frontmatter]
+date = ["lastmod", "date", "publishDate"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "lastmod", "date"]
+expiryDate = ["expiryDate"]
+
+[outputs]
+  home = ["HTML", "RSS","JSON"]

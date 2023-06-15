@@ -1,0 +1,92 @@
+// Original by @luizdepra and retrieved from https://github.com/luizdepra/hugo-coder
+// I modified it by using my own colors and a few other parameters
+.notice
+  border-radius: 0.2rem;
+  position: relative;
+  margin: 2rem 0;
+  padding: 0 0.75rem;
+  overflow: auto;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .notice-title
+    position: relative;
+    font-weight: 700;
+    margin: 0 -0.75rem;
+    padding: 0.2rem 1.5rem;
+    border-bottom: 1px solid var(--border-color)
+
+  // https://www.client9.com/using-font-awesome-icons-in-hugo/
+  .inline-svg
+    display: inline-block
+    height: 0.75rem
+    width: 0.75rem
+    //top: 0.15rem
+    position: relative
+    bottom: 0.15rem
+    margin-right: 0.25rem
+
+  .notice-content
+    display: block;
+    margin: 1rem 1rem;
+
+.notice.note
+  background-color: #4da6ff
+
+  .notice-title
+    background-color: #003366
+
+.notice.tip
+  background-color: #a64dff
+  border-left: none  // this is also part of the kludge
+
+  // this is a kludge to overcome the "tip" CSS class built-in to the Compose theme
+  &::before
+    content: ""
+    position: absolute
+    left: 0px
+    top: 0px
+    z-index: 3
+    padding: 0px
+    transform-origin: 0% 0%
+    border-radius: 0%
+    background-color: auto
+    background-image: none
+    background-size: 0rem
+    background-position: 0% 0%
+    background-repeat: no-repeat
+
+  .notice-title
+    background-color: #6600cc
+
+.notice.example
+  background-color: #cc9966
+
+  .notice-title
+    background-color: #996633
+
+.notice.question
+  background-color: DarkSeaGreen
+
+  .notice-title
+    background-color: DarkGreen
+
+.notice.info
+  background-color: #4d4dff
+
+  .notice-title
+    background-color: #000099
+
+.notice.warning
+  background-color: #ffb84d
+
+  .notice-title
+    background-color: #ff9900
+    color: var(--text)
+
+.notice.error
+  background-color: LightCoral
+
+  .notice-title
+    background-color: DarkRed

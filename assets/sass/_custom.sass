@@ -1,0 +1,91 @@
+@import 'tabs';
+@import 'notices'
+
+html
+  --color-mode: "light"
+  --light: #fff
+  --dark:  rgb(28,28,30)
+  --haze: #f2f5f7
+  --bubble: rgb(36,36,38)
+  --accent: var(--haze)
+  --bg: var(--light)
+  --code-bg: var(--accent)
+  --overlay: var(--light)
+  --text: #111
+  --font: 'Metropolis', sans-serif
+  --border-color: #eee
+  --inline-color: darkgoldenrod
+  --theme: rgb(111, 168, 220)
+  --ease: ease
+  --scroll-thumb: rgba(0,0,0,.06)
+  --search-border-color: transparent
+  --next-icon-path: url(../images/icons/double-arrow.svg)
+  --never-icon-path: url(../images/sitting.svg)
+
+  @mixin darkmode
+    --color-mode: "dark"
+    --theme: rgb(111, 168, 220)
+    --bg: var(--dark)
+    --text: #eee
+    --accent: var(--bubble)
+    --overlay: var(--bubble)
+    --border-color: transparent
+    --scroll-thumb: rgba(255,255,255,.06)
+    --search-bg: var(--accent)
+    --search-border-color: var(--accent)
+    *
+      box-shadow: none !important
+
+  &[data-mode="dark"]
+    @include darkmode
+    .color
+      &_choice
+        &::after
+          background-image: var(--moon-icon)
+
+  &[data-mode="auto"]
+    @media (prefers-color-scheme: dark)
+      @include darkmode
+
+%narrow
+  max-width: 750px
+  margin: 0 auto
+
+blockquote
+  + .highlight_wrap
+    margin-top: 2.25rem
+
+.section
+  &_title
+    font-size: 1.25rem
+  &_link
+    font-size: 0.9rem
+    font-weight: 400
+
+.post
+  ol
+    padding: 1rem 1.25rem
+    list-style-type: decimal;
+
+  .tabs
+    max-width: 840px !important
+    margin-left: auto
+    margin-right: auto
+
+  ul
+    padding: 1rem 1.25rem
+    list-style-type: disc;
+
+  img:not(.icon)
+    @media screen and (min-width: 1025px)
+      display: inline
+      width: auto
+      max-width: 1024px
+      margin-left: auto
+      margin-right: auto
+
+  details
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;

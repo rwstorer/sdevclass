@@ -1,0 +1,4 @@
+<details class="{{ .Get `Class` }}">
+    <summary>{{- .Get "Summary" | markdownify -}}</summary>
+    {{- .Inner | markdownify -}}
+</details>
