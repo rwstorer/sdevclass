@@ -92,4 +92,10 @@ No, we will not cover IP subnetting here. Feel free to research it on your own. 
 
 ### IPv6
 
-Read Microsoft's [Internet Protocol version 6 (IPv6) overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview) article. Make certain you understand the concepts of Unicast, link local, site local, multicast, and anycast addresses.
+Read Microsoft's [Internet Protocol version 6 (IPv6) overview](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/ipv6-overview) article. Make certain you understand these address types:
+
+- Unicast
+- link local
+- site local
+- multicast
+- anycast
