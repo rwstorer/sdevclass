@@ -19,7 +19,7 @@ and high availability. Students will explore course topics through a guided,
 hands-on approach.
 
 {{< notice "note" >}}
-This course does **NOT** lead to AWS, Azure, or any other cloud certification. It will cover how to perform tasks (within the free tier) in both AWS and Azure using both (as much as possible) the web GUI and the command line.
+This course does **NOT** lead to AWS, Azure, or any other cloud certification. It will cover how to perform tasks in Azure using Microsoft's learning content. ***Microsoft does not support this course.***
 {{< /notice >}}
 
 ## Learning Objectives
