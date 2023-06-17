@@ -34,7 +34,7 @@ CloudFlare has several other articles on the various DNS record types (under the
 
 ### DNS Records
 
-Read CloudFlare's [What is a DNS record?](https://www.cloudflare.com/learning/dns/what-is-dns/) article. Make sure you can explain A, CNAME, and TXT records and the time to live (TTL) attribute. MX, DKIM, SPF, AND DMARC record types deal primarily with email servers and services. For example, to find all the public facing email servers for Microsoft:
+Read CloudFlare's [What is a DNS record?](https://www.cloudflare.com/learning/dns/what-is-dns/) article. Make sure you can explain A, CNAME, and TXT records and the time to live (TTL) attribute. MX, DKIM, SPF, and DMARC record types deal primarily with email servers and services. For example, to find all the public facing email servers for Microsoft:
 
 {{< tabgroup >}}
 {{< tab name="Bash" >}}
