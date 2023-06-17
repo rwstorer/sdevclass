@@ -1,0 +1,48 @@
+/* Originally retrieved on 2023-06-17 from https://decovar.dev/blog/2019/04/19/github-comments-hugo/ */
+#comments {
+    margin-top: 30px;
+}
+
+.gh-comment {
+  border: 1px solid #d1d5da;
+  margin-top: 0.1rem;
+}
+
+.gh-header {
+  background-color: darkgreen;
+  border-bottom: 1px solid;
+  padding: 0.25rem;
+}
+
+.gh-username {
+  color: #586069;
+}
+
+.gh-body {
+  padding: 0.25rem 0.30rem;
+}
+
+.gh-body code {
+  font-size: 1.2rem;
+}
+.gh-body > div.highlight > pre {
+  padding: 0.25rem;
+  color: lime;
+  font-size: 1.2rem;
+  background-color: #000;
+  border-radius: 0.1rem;
+}
+
+.gh-comment p {
+  margin: 0px 0px 10px 0px;
+}
+.gh-comment p:last-child {
+  margin: 0;
+}
+
+.gh-header > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}

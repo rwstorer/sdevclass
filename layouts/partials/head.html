@@ -32,6 +32,9 @@
     <script type="text/javascript" src="{{.Site.BaseURL}}/js/lite-yt-embed.js"></script>
 {{ end }}
 
+<!-- The comments CSS -->
+<link rel="stylesheet" href="{{.Site.BaseURL}}/css/comments.css">
+
 {{- $t := .Title }}
 {{- $s := site.Title }}
 {{- if in (lower $s) (lower $t) }}
