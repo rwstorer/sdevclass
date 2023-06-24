@@ -1,6 +1,8 @@
 // Original by @luizdepra and retrieved from https://github.com/luizdepra/hugo-coder
 // I modified it by using my own colors and a few other parameters
+
 .notice
+  --noticeTextColor: white;
   border-radius: 0.2rem;
   position: relative;
   margin: 2rem 0;
@@ -9,6 +11,7 @@
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  color: var(--noticeTextColor)
 
   .notice-title
     position: relative;
@@ -83,7 +86,7 @@
 
   .notice-title
     background-color: #ff9900
-    color: var(--text)
+    color: var(--noticeTextColor)
 
 .notice.error
   background-color: LightCoral

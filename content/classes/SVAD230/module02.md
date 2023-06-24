@@ -22,17 +22,21 @@ This module will not provide a "deep dive" into routing or switching--other, ded
 - Switches operate at layer two in the [OSI model](https://en.wikipedia.org/wiki/OSI_model)
   - Some switches also perform routing at layer three--we commonly refer to them as `layer 3 switches`
   - Some switches provide a web-GUI or a CLI management interface and we refer to them as `managed switches`
-    - Managed switches allow administrators to configure individual ports for VLANs, port mirroring, etc., e.g. {{< myimg "/images/tplink-ts-sg108e.webp" "tplink-ts-sg108e" >}}
+    - Managed switches allow administrators to configure individual ports for VLANs, port mirroring, etc., for example {{< myimg "/images/tplink-ts-sg108e.webp" "tplink-ts-sg108e" >}}
     - Unmanaged switches (sometimes called `dumb switches`) do not, typically, provide a web-GUI or a CLI
 
-### Virtual Networks Routing in Azure
+## Complete the Following Learning Modules
 
-## Item Two
+- [Configure virtual networks - 35 min](https://learn.microsoft.com/en-us/training/modules/configure-virtual-networks/)
+- [Configure network security groups - 36 min](https://learn.microsoft.com/en-us/training/modules/configure-network-security-groups/)
+- [Configure Azure Firewall - 20 min](https://learn.microsoft.com/en-us/training/modules/configure-azure-firewall/)
+- [Configure Azure DNS](https://learn.microsoft.com/en-us/training/modules/configure-azure-dns/)
 
-Stuff about item two goes here.
+As you finish each learning module, submit a screen shot of your completion.<br />
+{{< myimg "/images/configure-virtual-networks.webp" "configure virtual network progress" >}}
 
 ## Item Three
 
-Stuff about item three goes here.
+[ToDo: add more content here]
 
 {{< comments "2" >}}
