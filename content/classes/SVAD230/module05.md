@@ -1,25 +1,34 @@
 ---
 title: "SVAD 230 - Module 5"
 tags:
-  - item1
-  - item2
-  - item3
+  - Identity
+  - Entra
+  - Okta
 ---
 
 ## Topics for Week Five
 
-- item one
-- item two
-- item three
+- Identity
+  - Entra
+  - Okta
 
-## Item One
+## Identity Solutions
 
-Stuff about item one goes here.
+Read [Best Identity Management Solutions for Businesses](https://www.greengeeks.com/blog/best-identity-management-solutions/) by Robert Gianquinto.
 
-## Item Two
+Read [Identity and Access Management (IAM)](https://www.imperva.com/learn/data-security/iam-identity-and-access-management/) on imperva.
 
-Stuff about item two goes here.
+What is an identity solution? Why does your company need one?
 
-## Item Three
+### Microsoft Entra ID
 
-Stuff about item three goes here.
+[Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/azure-active-directory)
+
+### Okta
+
+[Okta](https://www.okta.com)
+
+### Additional Reading
+
+- [What is Identity and Access Management (IAM)?](https://www.fortinet.com/resources/cyberglossary/identity-and-access-management) on Fortinet
+- [What is Federated Identity](https://www.onelogin.com/learn/federated-identity) on OneLogin

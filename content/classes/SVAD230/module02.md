@@ -11,8 +11,7 @@ tags:
 ## Topics for Week Two
 
 - Routing and Switching
-- item two
-- item three
+- Complete the Learning Modules
 
 ## Routing and Switching
 
@@ -34,9 +33,5 @@ This module will not provide a "deep dive" into routing or switching--other, ded
 
 As you finish each learning module, submit a screen shot of your completion.<br />
 {{< myimg "/images/configure-virtual-networks.webp" "configure virtual network progress" >}}
-
-## Item Three
-
-[ToDo: add more content here]
 
 {{< comments "2" >}}

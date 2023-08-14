@@ -1,25 +1,35 @@
 ---
 title: "SVAD 230 - Module 4"
 tags:
-  - item1
-  - item2
-  - item3
+  - SharePoint
+  - OneDrive
+  - Teams
+  - Slack
+  - Discord
+  - collaboration
 ---
 
 ## Topics for Week Four
 
-- item one
-- item two
-- item three
+- Collaboration Platforms
+  - Teams
+  - Slack
+  - Discord
 
-## Item One
+## Collaboration Platforms
+
+Read [What is a Collaboration Platform? Everything You Need to Know](https://www.comidor.com/knowledge-base/enterprise-collaboration-kb/collaboration-platform-definition/) by Frank Hamilton.
+
+What is a collaboration platform? Why do companies find them useful?
+
+### Teams
 
 Stuff about item one goes here.
 
-## Item Two
+### Slack
 
 Stuff about item two goes here.
 
-## Item Three
+### Discord
 
 Stuff about item three goes here.
