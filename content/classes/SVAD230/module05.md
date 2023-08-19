@@ -18,7 +18,7 @@ Read [Best Identity Management Solutions for Businesses](https://www.greengeeks.
 
 Read [Identity and Access Management (IAM)](https://www.imperva.com/learn/data-security/iam-identity-and-access-management/) on imperva.
 
-What is an identity solution? Why does your company need one?
+What is an identity solution? Why does your company need one? Which one would you recommend to your boss and why?
 
 ### Microsoft Entra ID
 

@@ -20,16 +20,6 @@ tags:
 
 Read [What is a Collaboration Platform? Everything You Need to Know](https://www.comidor.com/knowledge-base/enterprise-collaboration-kb/collaboration-platform-definition/) by Frank Hamilton.
 
-What is a collaboration platform? Why do companies find them useful?
+Justin Pot's does a great job of showing the pros and cons of Teams, Slack, and Discord applications (and others) [The 5 best team chat apps for the workplace](https://zapier.com/blog/best-team-chat-app/).
 
-### Teams
-
-Stuff about item one goes here.
-
-### Slack
-
-Stuff about item two goes here.
-
-### Discord
-
-Stuff about item three goes here.
+What is a collaboration platform? Why do companies find them useful? Which one would you recommend to your boss and why?
