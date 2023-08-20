@@ -28,6 +28,10 @@ What is an identity solution? Why does your company need one? Which one would yo
 
 [Okta](https://www.okta.com)
 
+Read [Build a Single Sign-On (SSO) integration](https://developer.okta.com/docs/guides/build-sso-integration/openidconnect/main/)
+
+If you want, [experiment with a free trial or a free developer account](https://developer.okta.com/signup/).
+
 ### Additional Reading
 
 - [What is Identity and Access Management (IAM)?](https://www.fortinet.com/resources/cyberglossary/identity-and-access-management) on Fortinet

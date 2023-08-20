@@ -1,25 +1,31 @@
 ---
 title: "SVAD 230 - Module 7"
 tags:
-  - item1
-  - item2
-  - item3
+  - azure
+  - database
+  - sql
+  - IaaS
+  - PaaS
 ---
 
 ## Topics for Week Seven
 
-- item one
-- item two
-- item three
+- Azure Data Solutions and Cloud Computing Models
+  - IaaS
+  - PaaS
 
-## Item One
+## Azure Data Solutions
 
-Stuff about item one goes here.
+Read [SaaS vs PaaS: What's the difference?](https://www.paddle.com/resources/saas-vs-paas-vs-iaas).
 
-## Item Two
+## IaaS
 
-Stuff about item two goes here.
+Read [What Is IaaS (Infrastructure as a Service)?](https://aws.amazon.com/what-is/iaas/)
 
-## Item Three
+Complete the module [Deploy IaaS solutions with Azure SQL](https://learn.microsoft.com/en-us/training/modules/deploy-iaas-solutions-with-azure-sql/)
 
-Stuff about item three goes here.
+## PaaS
+
+Read [What Is PaaS? How Platform as a Service is Different from IaaS and SaaS](https://kinsta.com/blog/what-is-paas/).
+
+Complete the module [Deploy PaaS solutions with Azure SQL](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/).

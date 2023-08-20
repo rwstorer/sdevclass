@@ -1,25 +1,30 @@
 ---
 title: "SVAD 230 - Module 8"
 tags:
-  - item1
-  - item2
-  - item3
+  - vpn
+  - wireguard
 ---
 
 ## Topics for Week Eight
 
-- item one
-- item two
-- item three
+- Finish your end of course project
+- VPN
 
-## Item One
+## Virtual Private Networks
 
-Stuff about item one goes here.
+Read about Wireguard and several Azure VPN connection types. How do they differ? What do they all have in common?
 
-## Item Two
+### Wireguard - A Free and Open Source VPN
 
-Stuff about item two goes here.
+Read about [Wireguard](https://www.wireguard.com/).
 
-## Item Three
+### Azure VPN
 
-Stuff about item three goes here.
+Read about [Azure VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways).
+
+In your own words, describe the following VPN connection types:
+
+- Site-to-site
+- Site-to-site with ExpressRoute
+- VNet-to-VNet
+- Point-to-site
