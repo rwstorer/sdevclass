@@ -36,3 +36,4 @@ If you want, [experiment with a free trial or a free developer account](https://
 
 - [What is Identity and Access Management (IAM)?](https://www.fortinet.com/resources/cyberglossary/identity-and-access-management) on Fortinet
 - [What is Federated Identity](https://www.onelogin.com/learn/federated-identity) on OneLogin
+- [Identity Fundamentals - Authorization Methods](https://www.pingidentity.com/en/resources/identity-fundamentals/authorization/authorization-methods.html)
