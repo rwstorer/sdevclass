@@ -55,7 +55,7 @@ This course does not lead to CompTia certification and is not supported by CompT
 - dd if=/dev/urandom of=/dev/devname # wipe a drive
 - umount
 - ssh-keygen
-- ssh-copy-id -i filename.pub uid@hostname.domain.com
+- ssh-copy-id -i filename.pub uid\@hostname.domain.com
 - cat
 
 ## Cryptography
@@ -66,7 +66,7 @@ This course does not lead to CompTia certification and is not supported by CompT
 - hash
   - MD5 - 128 bit hash
   - SHA - SHA-1 - SHA-2
-  - RIPEMD - 128 160 
+  - RIPEMD - 128 160
   - Attack the algorhythm, attack the implementation, attack the key
 
 ## Password Cracking
