@@ -32,6 +32,6 @@ Read Microsoft's ["Introduction to Blob (object) Storage](https://learn.microsof
 
 Read the other sections under Blog storage also.
 
-What [command line tool](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-migrate-on-premises-data?tabs=windows) can use use to transfer data to Azure storage?
+What [command line tool](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-migrate-on-premises-data?tabs=windows) can you use to transfer data to Azure storage?
 
 Host a static web site on Azure storage by following [this Microsoft tutorial](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host).
