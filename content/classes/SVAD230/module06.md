@@ -3,10 +3,10 @@ title: "SVAD 230 - Module 6"
 tags:
   - storage
   - azure
-  - blobs
-  - queues
-  - tables
-  - disks
+  - blob
+  - queue
+  - table
+  - disk
 ---
 
 ## Topics for Week Six
@@ -30,7 +30,7 @@ Make certain you understand the use cases for each of the topic items listed abo
 
 Read Microsoft's ["Introduction to Blob (object) Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
 
-Read the other sections under Blog storage also.
+Read the other sections under Blob storage also.
 
 What [command line tool](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-migrate-on-premises-data?tabs=windows) can you use to transfer data to Azure storage?
 
