@@ -29,3 +29,9 @@ Complete the module [Deploy IaaS solutions with Azure SQL](https://learn.microso
 Read [What Is PaaS? How Platform as a Service is Different from IaaS and SaaS](https://kinsta.com/blog/what-is-paas/).
 
 Complete the module [Deploy PaaS solutions with Azure SQL](https://learn.microsoft.com/en-us/training/modules/deploy-paas-solutions-with-azure-sql/).
+
+## Questions
+
+- Why would you choose IaaS?
+- Why would you choose PaaS?
+- Which one did you prefer and why?
