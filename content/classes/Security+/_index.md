@@ -75,3 +75,5 @@ This course does not lead to CompTia certification and is not supported by CompT
 - salting
 - brute force
 - unshadow /etc/passwd /etc/shadow > credentials.txt # jack the ripper
+
+I ended up not finishing this content. Maybe some day I'll return to it.
