@@ -2,7 +2,7 @@
 
 Compose is a [Hugo](https://gohugo.io/) theme for documentation websites. The theme provides a simple navigation & structure.
 
-![Hugo Compose Theme](https://github.com/onweru/compose/blob/master/images/tn.png)
+![Hugo Compose Theme](https://raw.githubusercontent.com/onweru/compose/master/images/tn.png)
 
 ## Features
 
@@ -17,16 +17,16 @@ Compose is a [Hugo](https://gohugo.io/) theme for documentation websites. The th
 
 ## Documentation
 
-- [Install compose theme](https://docs.neuralvibes.com/docs/compose/install-theme/)
-- [Use forestry CMS](https://docs.neuralvibes.com/docs/compose/use-forestry-cms/)
-- [Customize your site](https://docs.neuralvibes.com/docs/compose/customize/)
-- [Configure search](https://docs.neuralvibes.com/docs/compose/search/)
-- [Shortcodes](https://docs.neuralvibes.com/docs/compose/shortcodes/)
-- [Mermaid](https://docs.neuralvibes.com/docs/compose/mermaid/)
+- [Install Compose theme](https://composedocs.netlify.app/docs/compose/install-theme/)
+- [Use Tina CMS](https://composedocs.netlify.app/docs/compose/use-tina-cms/)
+- [Customize your site](https://composedocs.netlify.app/docs/compose/customize/)
+- [Configure search](https://composedocs.netlify.app/docs/compose/search/)
+- [Shortcodes](https://composedocs.netlify.app/docs/compose/shortcodes/)
+- [Mermaid](https://composedocs.netlify.app/docs/compose/mermaid/)
 
 ## ExampleSite
 
-The [exampleSite](https://github.com/onweru/compose/tree/master/exampleSite) serves as this theme's [user guide](https://docs.neuralvibes.com/docs/compose/install-theme/) .
+The [exampleSite](https://github.com/onweru/compose/tree/master/exampleSite) serves as this theme's [user guide](https://composedocs.netlify.app/docs/compose/install-theme/) .
 
 This guide covers the necessary bits. As the project evolves, the user-guide will get more comprehensive
 
@@ -43,7 +43,7 @@ hugo server --themesDir ../..
 1. [Clarity Theme](https://github.com/chipzoller/hugo-clarity)
 2. [Newsroom Theme](https://github.com/onweru/newsroom)
 3. [Swift Theme](https://github.com/onweru/hugo-swift-theme)
-4. [Browse](https://github.com/onweru/browse)
+4. [Browse Theme](https://github.com/onweru/browse)
 
 ## License
 
